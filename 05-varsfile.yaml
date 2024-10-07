@@ -1,0 +1,15 @@
+- name: variable
+  host: web
+  tasks:
+   - name:
+     ansible.builtin.package:
+     msg: "hi this is sujitha"
+
+
+- name: variable
+  host:
+  tasks:
+   - name:
+     ansible.builtin.service
+     msg: "how are you"   
+     
