@@ -8,8 +8,8 @@
        state: present
 
 
-- name: install nginx
-  ansible.builtin.service:
-    name: nginx
-    state: started
-    enabled: yes
+   - name: install nginx
+     ansible.builtin.service:
+       name: nginx
+       state: started
+       enabled: yes
